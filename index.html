@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kagaku Consultancy Firm</title>
+    <!-- style library  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="px-16">
+
+    <header>
+        <!-- nav bar section  -->
+        <nav class="mt-6">
+            <div class="">
+                <ul class="flex flex-col md:flex-row lg:flex-row justify-between gap-18">
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#home">Home</a></button></li>
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#wwd">What We Do</a></button></li>
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#wwo">What We Offer</a></button></li>
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#successful">Success Story</a></button></li>
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#wwa">Who We Are</a></button></li>
+                    <li><button
+                            class="px-3 py-2 md:px-2 md:py-1 lg:px-9 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
+                                href="#cu">Contact Us</a></button></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- hero section  -->
+        <div class="mb-8 mt-12" id="home">
+            <h1 class="text-6xl">KCF</h1>
+            <h5 class="text-lg">Japan Based Consultancy Firm</h5>
+        </div>
+        <!-- carousel section  -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="./image/banner1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="./image/banner2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="./image/banner3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="./image/banner4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- what we do section  -->
+        <section id="wwd">
+            <div class="hero min-h-screen bg-base-200 mt-12">
+                <div class="hero-content flex-col lg:flex-row gap gap-10">
+                    <img src="./image/whatwedo.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <h1 class="text-5xl font-bold">What We Do?</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi...</p>
+                        <button class="btn px-4 py-2 bg-blue-100 hover:bg-blue-200">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- what we offer section  -->
+        <section id="wwo" class="mt-12 h-screen">
+            <div class="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">What We Offer</div>
+
+
+            <!-- card container  -->
+            <div class="cardcontainer flex gap-4 mt-24">
+                <!-- card-1 -->
+                <div class="card  bg-slate-200 shadow-xl">
+                    <div class="card-body">
+                        <h2 class="card-title">Consultation</h2>
+                        <p class="mt-4">If a dog chews shoes whose shoes does he choose?</p>
+
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card  bg-slate-300 shadow-xl">
+                    <div class="card-body">
+                        <h2 class="card-title">Japan Car Tread</h2>
+                        <p class="mt-4">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end mt-5">
+                            <button class="btn">Click here</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card  bg-slate-400 shadow-xl text-gray-200">
+                    <div class="card-body">
+                        <h2 class="card-title">Car Parts and Accessories</h2>
+                        <p class="">If a dog chews shoes whose shoes does he choose?</p>
+
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="card  bg-slate-500 shadow-xl text-gray-200">
+                    <div class="card-body ">
+                        <h2 class="card-title">E-commerce</h2>
+                        <p class="mt-4">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end mt-5">
+                            <button class="btn">Click here</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- successful story section   -->
+        <section id="successful" class="mt-12">
+            <div>
+                <div class="">
+                    <!-- question and answers  -->
+                    <div class="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Succesful
+                        Story</div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            R&D Lab
+                        </div>
+                        <div class="collapse-content">
+                            <p>Details: <br>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dolores repellat possimus
+                                unde neque nostrum, rem, exercitationem debitis reiciendis in fugiat, sint eveniet?
+                                Sapiente tempora eum nemo, iure vel nesciunt eligendi enim ex nostrum doloribus at
+                                maxime adipisci optio soluta officia quia aspernatur. Hic, dicta. Animi est eum voluptas
+                                vitae?</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Car Engine
+                        </div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempora quos velit
+                                cum nemo ad incidunt voluptatibus, eligendi vero, labore facere reiciendis minima.
+                                Expedita error reprehenderit laborum veniam in reiciendis!</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Heavy vehicles battery
+                        </div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempora quos velit
+                                cum nemo ad incidunt voluptatibus, eligendi vero, labore facere reiciendis minima.
+                                Expedita error reprehenderit laborum veniam in reiciendis!</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Car Import
+                        </div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempora quos velit
+                                cum nemo ad incidunt voluptatibus, eligendi vero, labore facere reiciendis minima.
+                                Expedita error reprehenderit laborum veniam in reiciendis!</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Sound System
+                        </div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempora quos velit
+                                cum nemo ad incidunt voluptatibus, eligendi vero, labore facere reiciendis minima.
+                                Expedita error reprehenderit laborum veniam in reiciendis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- who we are section  -->
+        <section id="wwa" class="mt-12">
+            <div class="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Who We Are</div>
+
+            <!-- card container  -->
+            <div class="flex gap-8">
+                <!-- card-1  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="h-60 w-full" src="./image/Rectangle 4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">John Doe</h2>
+                        <h2 class="">Designer</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        
+                    </div>
+                </div>
+                <!-- card-1  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="h-60 w-full" src="./image/Rectangle 5.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">John Doe</h2>
+                        <h2 class="">Designer</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        
+                    </div>
+                </div>
+                <!-- card-1  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="h-60 w-full" src="./image/Rectangle 6.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">John Doe</h2>
+                        <h2 class="">Designer</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section  -->
+        <section id="cu" class="mt-12 h-screen">
+            <div class="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Contact Us</div>
+
+            <!-- input Fields  -->
+            <form action="https://formsubmit.co/abir1.1.exe@gmail.com" method="POST">
+                <!-- field1  -->
+                <div class="form-control w-full max-w-xl">
+                    <label class="label">
+                        <span class="label-text">Name</span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                    <input name="Name" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xl" maxlength="256" required />
+                    <label class="label">
+                        <span class="label-text-alt"></span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                </div>
+                <div class="form-control w-full max-w-xl">
+                    <label class="label">
+                        <span class="label-text">Email</span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                    <input name="Email" type="email" placeholder="Type here" class="input input-bordered w-full max-w-xl" maxlength="256" required/>
+                    <label class="label">
+                        <span class="label-text-alt"></span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                </div>
+                <div class="form-control w-full max-w-xl">
+                    <label class="label">
+                        <span class="label-text">Subject</span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                    <input name="Subject" placeholder="Type here" class="input input-bordered w-full max-w-xl " maxlength="256" required />
+                    <label class="label">
+                        <span class="label-text-alt"></span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                </div>
+                <div class="form-control w-full max-w-xl">
+                    <label class="label">
+                        <span class="label-text">Message</span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                    <input name="Message" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xl" maxlength="256" required />
+                    <label class="label">
+                        <span class="label-text-alt"></span>
+                        <span class="label-text-alt"></span>
+                    </label>
+                </div>
+                <button class="bg-blue-100 px-32 rounded-lg py-3 hover:bg-blue-300 mb-12">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

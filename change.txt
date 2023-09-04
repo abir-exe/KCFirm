@@ -1,0 +1,11 @@
+contact us section name limit - 256                 done
+
+email section email only                  done
+they all are required , send button disabled by default will active after         done
+
+r & d lab left side and inline            done
+ 
+who we are - contact button remove   done
+
+carosel auto next after 2 or 3 sec            
+

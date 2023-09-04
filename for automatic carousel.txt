@@ -1,0 +1,5 @@
+how to make custom slider with js
+
+
+https://kenwheeler.github.io/slick/
+https://swiperjs.com/
